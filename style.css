@@ -1,0 +1,329 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #B0C6CE;
+}
+.container{
+
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color:black;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+ .grup1{
+  display: flex;
+  color: white;
+  gap: 80px;
+  align-items: center;
+ margin-top: -6%;
+ 
+}
+ 
+.logo{
+  width: 80px;
+}
+
+
+.grp-2 {
+
+  display: flex;  
+  
+}
+.search-bar{
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
+.grp-2-item{
+  height: 10px;
+  width: 10px;
+}
+
+.twiter{
+  height: 30px;
+}
+
+.div1{
+  height: 500px;
+  width: 1000px;
+  border: 2px solid snow;
+  margin-top: 4%;
+  margin-left: 8%;
+  background-image: url(./images/home.jpg);
+  background-size: cover;
+ 
+}
+.img{
+  font-size: 50px;
+  font-weight: 900;
+  color: yellow;
+  align-content: center;
+  font-style: italic;
+  margin-top: 25%;
+  margin-left: 25%;
+  animation: myanim 5s;
+  
+  animation-iteration-count: infinite;
+
+ 
+}
+@keyframes myanim {
+  from {color:yellow;}
+  to  {color: #576CA8;} 
+}
+
+.div2{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
+.cr1{
+height: 400px;
+width: 300px;
+border: 2px solid snow;
+margin-top: 3%;
+
+}
+.cr11{height: 265px;
+  width: 295px;
+  background-image: url(/images/cybr.jpg);
+  background-size: cover;
+
+}
+
+.cr2{
+  height: 400px;
+  width: 300px;
+  border: 2px solid snow;
+  margin-top: -40%;
+  margin-left: 35%;
+  }
+  .cr22 {height: 265px;
+    width: 295px;
+    background-image: url(/images/Ai.jpg);
+    background-size: cover;
+  
+  }
+  .cr3{
+    height: 400px;
+    width: 300px;
+    border: 2px solid snow;
+    margin-top: -40%;
+    margin-left: 70%;
+    }
+
+    .cr33{height: 265px;
+      width: 295px;
+      background-image: url(/images/Net.jpg);
+      
+      background-size: cover;
+    
+    }
+
+    h1{
+      
+      margin-left: 12%;
+    }
+    p{
+      margin-top: 3%;
+      text-align: justify;
+    }
+    
+
+    .ts{
+      width: 40px;
+      height: 40px;
+      background-image: url(./images/TS.png);
+      background-size: cover;
+      margin-top: 4%;
+     
+      
+    }
+    .react{
+      width: 40px;
+      height: 40px;
+      background-image: url(./images/react.png);
+      background-size: cover;
+     
+      margin-top: -4%;
+      margin-left: 25%;
+      
+    }
+    .js{
+      width: 40px;
+      height: 40px;
+      background-image: url(./images/js.png);
+      background-size: cover;
+      margin-top: -4%;
+      margin-left: 50%;
+
+    }
+    .jv{
+      width: 40px;
+      height: 40px;
+      background-image: url(./images/jv.png);
+      background-size: cover;
+      margin-top: -4%;
+      margin-left: 75%;
+
+    }
+    .py{
+      width: 80px;
+      height: 80px;
+      background-image: url(./images/py.svg);
+      background-size: cover;
+      margin-top: -5.5%;
+      margin-left: 95%;
+
+    }
+    .Aii{
+      
+        width: 40px;
+        height: 40px;
+        background-image: url(./images/Aii.jpg);
+        background-size: cover;
+        margin-top: 3%;
+        margin-left: 0%;
+  
+    
+    }
+    .aws{
+      width: 40px;
+      height: 40px;
+      background-image: url(./images/aws.png);
+      background-size: cover;
+      margin-top: -4%;
+      margin-left: 25%;
+
+    }
+
+    .Go{
+      width: 60px;
+      height: 60px;
+      background-image: url(./images/Go.png);
+      background-size: cover;
+      margin-top: -4.8%;
+      margin-left: 48%;
+
+    }
+    .next{
+      width: 80px;
+      height: 40px;
+      background-image: url(./images/next.png);
+      background-size: cover;
+      margin-top: -5%;
+      margin-left: 75%;
+
+    }
+
+    .sql{
+      width: 40px;
+      height: 40px;
+      background-image: url(./images/sql.png);
+      background-size: cover;
+      margin-top: -4%;
+      margin-left: 98%;
+
+    }
+
+    .footer{
+      height: 290px;
+      width: 1225px;
+      background-color: #2a2f31;
+      
+      margin-top: 7%;
+      margin-left: -10.5%;
+    }
+    
+    .footc{
+      font-size: small;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      margin-top: -17%;
+      margin-left: 25%;
+      color: snow;
+    }
+
+    .txt{
+      margin-top: 1%;
+      margin-left: 11%;
+    }
+
+    .txt1{
+      margin-left: 35%;
+      margin-top: -20.8%;
+}
+
+.know{
+  margin-top: -23.8%;
+  margin-left: 70%;
+}  
+
+.txt2{
+  margin-top: -1%;
+  margin-left: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .grup1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .grp-2 {
+    margin-top: 1rem;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .div1, .cr1, .cr2, .cr3 {
+    width: 90vw;
+    max-width: 90vw;
+    height: auto;
+    margin: 1rem auto;
+  }
+
+  .div2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-bar {
+    width: 80%;
+  }
+
+  .div2 {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    padding: 0 1rem;
+  }
+}
